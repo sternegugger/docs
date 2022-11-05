@@ -3,9 +3,13 @@
 ![20211204_133243](https://user-images.githubusercontent.com/24937182/144709719-2fb4ff2c-7645-4dd8-b0a3-eccd306d63f0.jpg)
 ![20211204_133418](https://user-images.githubusercontent.com/24937182/144709723-833ff002-ef84-431a-b05f-8b7ef30e0072.jpg)
 
-To use this driver, tasmota has to be compiled with:
+To use this driver for standard ascii text, tasmota has to be compiled with:
 
 `#define USE_DISPLAY_MAX7219_MATRIX`
+
+And optional to use extended character set Latin1 (like ÄÖÜäöüß)
+
+`#define USE_UTF8_LATIN1`
 
 
 
